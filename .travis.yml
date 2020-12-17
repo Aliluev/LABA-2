@@ -9,6 +9,6 @@ script:
   - cmake ../LABA-2
   - make -j
   - cd ./bin/
-  - ./test/test_tmatrix
+  - ./test/test
 notifications:
   email: false
