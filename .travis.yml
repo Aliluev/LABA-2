@@ -8,7 +8,6 @@ before_script:
 script:
   - cmake ../LABA-2
   - make -j
-  - cd ./bin/
   - ./test/test
 notifications:
   email: false
