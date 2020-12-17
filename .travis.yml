@@ -8,6 +8,7 @@ before_script:
 script:
   - cmake ../LABA-2
   - make -j
-  - ./test/test
+  - cd ./bin/
+  - ./test_matrix
 notifications:
   email: false
